@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'drf_spectacular',
     'drf_spectacular_sidecar',
+    'authorization.apps.AuthorizationConfig',
+    'avia.apps.AviaConfig',
 ]
 
 MIDDLEWARE = [
